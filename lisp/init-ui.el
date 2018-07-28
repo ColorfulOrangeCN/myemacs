@@ -5,6 +5,6 @@
 
 (add-hook 'emacs-lisp-mode-hook 'show-paren-mode)
 
-(setq inhibit-splash-screen 1)
+(setq-default inhibit-splash-screen t)
 
 (provide 'init-ui)

@@ -57,4 +57,10 @@
  (when (memq window-system '(mac ns))
    (exec-path-from-shell-initialize))
 
+
+;; mine
+(global-flycheck-mode 1)
+(ido-mode 1)
+(company-mode 1)
+
 (provide 'init-packages)

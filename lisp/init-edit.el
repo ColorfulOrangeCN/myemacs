@@ -5,6 +5,8 @@
 (global-auto-revert-mode 1)
 (delete-selection-mode 1)
 (setq c-default-style "cc-mode")
-(global-flycheck-mode 1)
+
+;; map
+(global-set-key(kbd "M-q") 'youdao-dictionary-search-at-point)
 
 (provide 'init-edit)
