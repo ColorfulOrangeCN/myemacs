@@ -61,6 +61,13 @@
 ;; mine
 (global-flycheck-mode 1)
 (ido-mode 1)
-(company-mode 1)
+(global-company-mode 1)
+; git-gutter
+(global-git-gutter-mode 1)
+(git-gutter:linum-setup)
+(custom-set-variables '(git-gutter:visual-line 1))
+(custom-set-variables
+ '(git-gutter:separator-sign "|"))
+(set-face-foreground 'git-gutter:separator "yellow")
 
 (provide 'init-packages)
